@@ -1,0 +1,25 @@
+{
+  "logo" : "Sapper",
+  "title": {
+    "index" : "Sapper Test"
+  },
+  "nav": {
+	"home"  : "Home",
+	"about" : "About" 
+  },
+  "index" : {
+	"title"    : "Users",
+	"subtitle" : "Some users list",
+	"user"     : {
+	  "name"    : "Name",
+	  "created" : "Date Created"
+	}
+  },
+  "about" : {
+	"title"    : "About this site",
+	"subtitle" : "This is the 'about' page. There's not much here."  
+  },
+  "lang[en]" : "English",
+  "lang[ru]" : "Rusia",
+  "lang[id]" : "Indonesia"
+}

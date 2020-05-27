@@ -1,0 +1,6 @@
+.card {
+	padding: 1.000em;
+	overflow: hidden;
+	@include shadow(soft);
+	@include shape(radius);
+}

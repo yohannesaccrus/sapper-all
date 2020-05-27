@@ -1,0 +1,41 @@
+section {
+    .descriptive {
+        &[layer='users'] {
+            .users {
+                margin-top: 2.000em;
+                .row {
+                    margin: 0 -1.000em;
+                    .column {
+                        .user {
+                            padding: 0 1.000em;
+                            margin-bottom: 1.500em;
+                            .card {
+								padding: 0;
+								@include transition(all, .5s, ease);
+								&:hover {
+									@include transform(scale, 1.05);
+								}
+
+                                .media {
+                                    img {
+                                        width: 100%;
+                                        height: 12.000em;
+                                        object-fit: cover;
+                                    }
+                                }
+
+                                .text {
+                                    padding: .500em 1.000em 1.000em 1.000em;
+
+                                    .field {
+                                        font-size: .800em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

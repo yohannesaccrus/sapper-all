@@ -1,0 +1,26 @@
+{
+	"logo" : "Sapper",
+	"title": {
+	  "index" : "Tes Sapper"
+	},
+	"nav": {
+	  "home"  : "Rumah",
+	  "about" : "Tentang" 
+	},
+	"index" : {
+	  "title"    : "Pengguna",
+	  "subtitle" : "Daftar Pengguna",
+	  "user"     : {
+	    "name"    : "Nama",
+		"created" : "Tanggal Dibuat"
+	  }
+	},
+	"about" : {
+		"title"    : "Tentang situs ini",
+		"subtitle" : "Ini adalah halaman tentang. Tidak banyak yang bisa dilakukan disini"  
+	},
+	"lang[en]" : "Inggris",
+	"lang[ru]" : "Rusia",
+	"lang[id]" : "Indonesia"
+  }
+  
