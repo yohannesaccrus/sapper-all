@@ -40,7 +40,7 @@
       {:else}
         <div class={'row'}>
           {#each users as user}
-            <div class={'column large:02'}>
+            <div class={'column large:02 small:12'}>
               <div class={'user'}>
                 <div class={'card'}>
                   <div class={'media'}>
